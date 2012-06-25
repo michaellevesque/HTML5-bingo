@@ -92,6 +92,18 @@ body {
 	font-size: 1.4em;
 }
 
+.small {
+	font-size: 0.6em;
+}
+
+.medium {
+	font-size: 0.8em;
+}
+
+.large {
+	font-size: 1.0em;
+}
+
 .win {
 	color: #ffffff !important;
    	background-color: red;
