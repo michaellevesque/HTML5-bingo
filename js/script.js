@@ -5,9 +5,7 @@ $(document).ready(function() {
 	
 	$('#header').append(headerText);
 	
-	var d = new Date();
-	var n = d.getFullYear()
-	$('#footer').append("&copy; "+n+" "+footerText);
+	$('#footer').append(footerText);
 
 	var clickSnd = new Audio("audio/click.mp3");
 	var winSnd = new Audio("audio/win.mp3");

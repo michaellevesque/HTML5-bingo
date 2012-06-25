@@ -51,6 +51,11 @@ body {
 	margin-bottom: 80px;
 }
 
+#footer a:link {
+	text-decoration: none;
+	color: #8B3E2F;
+}
+
 #board {
 	width: 640px;
 	background-color: #fff;
