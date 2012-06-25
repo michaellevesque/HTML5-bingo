@@ -9,8 +9,10 @@ WHAT IT IS:
 * Reads square data from the data.js file
 * Uses data attributes to check for win condition
 * Uses CSS transitions for all animation
+* Uses Media Queries for optimized mobile experience
+* Uses "Hide Address Bar" (via @scottjehl) to hide mobile URL bar
 * Uses HTML5 audio for UI feedback
-* Uses jquery.tappable.js to improve performance on mobile
+* Uses jquery.tappable.js to improve UI performance on mobile
 
 HOW TO USE:
 
