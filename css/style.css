@@ -1,0 +1,119 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body {
+	background-color: #a1a1a1;
+	background-image: url('../img/wood.background.png');
+	font-family: "BodoniSvtyTwoOSITCTT-Bold", serif;
+	text-rendering: optimizeLegibility;
+}
+
+#container {
+	width: 640px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: none;
+}	
+
+#header, #footer {
+	width: 600px;
+	color: #8B3E2F;
+	opacity: 0.5;
+	text-shadow: 0px 1px 0px #e1e1e1, 0px -1px 0px #313131;
+   	background-color: none;
+	font-size: 2.8em;
+	font-weight: bold;
+	padding: 8px 20px 8px 20px;
+	transition-property: background-color;
+	transition-duration: 1s;
+	/* Firefox 4 */
+	-moz-transition-property: background-color;
+	-moz-transition-duration: 1s;
+	/* Safari and Chrome */
+	-webkit-transition-property: background-color;
+	-webkit-transition-duration: 1s;
+}
+
+#footer {
+	text-align: center;
+	font-size: 1.4em;
+	padding: 3px 20px;
+	margin-bottom: 80px;
+}
+
+#board {
+	width: 640px;
+	background-color: #fff;
+	margin-bottom: 10px;
+	box-shadow: 0px 3px #919191;
+}
+
+.square, .freesquare {
+	display: inline-block;
+	overflow: hidden;
+	color: #313131;
+	text-align: center;
+	width: 126px;
+	height: 126px;
+	border: 1px solid #d1d1d1;
+	transition-property: background-color;
+	transition-duration: 1s;
+	/* Firefox 4 */
+	-moz-transition-property: background-color;
+	-moz-transition-duration: 1s;
+	/* Safari and Chrome */
+	-webkit-transition-property: background-color;
+	-webkit-transition-duration: 1s;
+}
+
+.selected {
+	color: #f1f1f1;
+	background-color: #313131;
+}
+
+.text {
+	font-family: "HelveticaNeue-CondensedBold", sans-serif;
+	vertical-align: middle;
+	font-size: 1.4em;
+}
+
+.win {
+	color: #ffffff !important;
+   	background-color: red;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+	#container {
+		width: 640;
+		margin: -7px 0px 0px -7px;
+	}
+
+	#header {
+		font-size: 3.6em;
+		text-align: center;
+		padding: 20px 20px 12px 20px;
+	}
+	
+	#footer {	
+		padding: 16px 20px 8px 20px;
+		font-size: 2.0em;
+	}
+
+	.text {
+		font-size: 1.2em;
+	}
+}
