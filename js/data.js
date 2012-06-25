@@ -3,6 +3,8 @@ var headerText = "Bingo";
 
 var footerText = "<a href='https://github.com/jeffehobbs/HTML5-bingo/' target='_blank'>Code available on github</a>";
 
+var winText = "Winner";
+
 var JSONBingo = {"squares": [
         {"square": "<span class='large'>one</span>"},
         {"square": "<span class='large'>two</span>"},
