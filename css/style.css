@@ -13,7 +13,7 @@
 body {
 	background-color: #a1a1a1;
 	background-image: url('../img/wood.background.png');
-	font-family: "BodoniSvtyTwoOSITCTT-Bold", serif;
+	font-family: "BodoniSvtyTwoOSITCTT-Bold", "Georgia", serif;
 	text-rendering: optimizeLegibility;
 }
 
@@ -90,22 +90,22 @@ body {
 }
 
 .text {
-	font-family: "HelveticaNeue-CondensedBold", sans-serif;
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Arial, sans-serif;
 	vertical-align: middle;
-	font-size: 1.4em;
-	line-height: 1.0em;
+	font-size: 1.2em;
+	line-height: 1.2em;
 }
 
 .small {
-	font-size: 0.6em;
-}
-
-.medium {
 	font-size: 0.8em;
 }
 
-.large {
+.medium {
 	font-size: 1.0em;
+}
+
+.large {
+	font-size: 1.2em;
 }
 
 .win {
@@ -134,7 +134,7 @@ and (max-device-width : 480px) {
 	}
 
 	.text {
-		font-size: 1.6em;
-		line-height: 1.0em;
+		font-size: 1.2em;
+		line-height: 1.2em;
 	}
 }

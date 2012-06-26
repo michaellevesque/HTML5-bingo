@@ -48,8 +48,8 @@ $(document).ready(function() {
 		if (row1 == 5 || row2 == 5 || row3 == 5 || row4 == 5 || row5 == 5 || col1 == 5 || col2 == 5 || col3 == 5  || col4 == 5  || col5 == 5 || diag1 == 5 || diag2 == 5) {
 			$('#header').html(winText);
 			$('#header').addClass("win");
-			
-         		winSnd.play();
+	
+         	winSnd.play();
     		
     	} else {
 			$('#header').html(headerText);
