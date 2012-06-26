@@ -7,9 +7,6 @@ $(document).ready(function() {
 	
 	$('#footer').append(footerText);
 
-	var clickSnd = new Audio("audio/click.mp3");
-	var winSnd = new Audio("audio/win.mp3");
-
 	shuffle(JSONBingo.squares);
 	
 	for (i=0; i<24; i++)	{

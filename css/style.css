@@ -26,6 +26,8 @@ body {
 }	
 
 #header, #footer {
+	display: block;
+	float: left;
 	width: 600px;
 	color: #8B3E2F;
 	opacity: 0.5;
@@ -36,10 +38,8 @@ body {
 	padding: 8px 20px 8px 20px;
 	transition-property: background-color;
 	transition-duration: 1s;
-	/* Firefox 4 */
 	-moz-transition-property: background-color;
 	-moz-transition-duration: 1s;
-	/* Safari and Chrome */
 	-webkit-transition-property: background-color;
 	-webkit-transition-duration: 1s;
 }
@@ -51,12 +51,14 @@ body {
 	margin-bottom: 80px;
 }
 
-#footer a:link {
+#footer a {
 	text-decoration: none;
 	color: #8B3E2F;
 }
 
 #board {
+	display: block;
+	float: left;
 	width: 640px;
 	background-color: #fff;
 	margin-bottom: 10px;
@@ -64,19 +66,20 @@ body {
 }
 
 .square, .freesquare {
-	display: inline-block;
+	display: block;
+	float: left;
 	overflow: hidden;
+	background-color: #fff;
 	color: #313131;
 	text-align: center;
-	width: 126px;
-	height: 126px;
+	width: 120px;
+	height: 120px;
+	padding: 3px;
 	border: 1px solid #d1d1d1;
 	transition-property: background-color;
 	transition-duration: 1s;
-	/* Firefox 4 */
 	-moz-transition-property: background-color;
 	-moz-transition-duration: 1s;
-	/* Safari and Chrome */
 	-webkit-transition-property: background-color;
 	-webkit-transition-duration: 1s;
 }
@@ -90,6 +93,7 @@ body {
 	font-family: "HelveticaNeue-CondensedBold", sans-serif;
 	vertical-align: middle;
 	font-size: 1.4em;
+	line-height: 1.0em;
 }
 
 .small {
@@ -109,7 +113,6 @@ body {
    	background-color: red;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
@@ -131,6 +134,7 @@ and (max-device-width : 480px) {
 	}
 
 	.text {
-		font-size: 1.2em;
+		font-size: 1.6em;
+		line-height: 1.0em;
 	}
 }

@@ -5,6 +5,10 @@ var footerText = "<a href='https://github.com/jeffehobbs/HTML5-bingo/' target='_
 
 var winText = "Winner";
 
+var clickSnd = new Audio("audio/click.mp3");
+
+var winSnd = new Audio("audio/win.mp3");
+
 var JSONBingo = {"squares": [
         {"square": "<span class='large'>one</span>"},
         {"square": "<span class='large'>two</span>"},
