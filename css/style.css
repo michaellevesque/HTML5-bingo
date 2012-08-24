@@ -12,7 +12,7 @@
 
 body {
 	background-color: #a1a1a1;
-	background-image: url('../img/wood.background.png');
+	background-image: url('../img/red_texture.png');
 	font-family: "BodoniSvtyTwoOSITCTT-Bold", "Georgia", serif;
 	text-rendering: optimizeLegibility;
 }
@@ -29,10 +29,11 @@ body {
 	display: block;
 	float: left;
 	width: 600px;
-	color: #8B3E2F;
-	opacity: 0.5;
+	color: #000000;
+	opacity: 0.75;
 	text-shadow: 0px 1px 0px #e1e1e1, 0px -1px 0px #313131;
    	background-color: none;
+   	text-align: center;
 	font-size: 2.8em;
 	font-weight: bold;
 	padding: 8px 20px 8px 20px;
@@ -92,8 +93,8 @@ body {
 .text {
 	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Arial, sans-serif;
 	vertical-align: middle;
-	font-size: 1.2em;
-	line-height: 1.2em;
+	font-size: 1.0em;
+	line-height: 1.1em;
 }
 
 .small {
@@ -109,8 +110,8 @@ body {
 }
 
 .win {
-	color: #ffffff !important;
-   	background-color: red;
+	color: #ffff00 !important;
+   	background-color: black;
 }
 
 @media only screen 
